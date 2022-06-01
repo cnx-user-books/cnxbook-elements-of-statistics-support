@@ -1,0 +1,413 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Distributions</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>99153af3-237b-42b2-9c02-3028f6933c00</md:uuid>
+</metadata>
+
+  <content>
+    <section id="sect1">
+      <title>Distributions of Discrete Variables</title>
+      <para id="para1">
+	I recently purchased a bag of Plain M&amp;Ms.  The M&amp;M's
+	were in six different colors. A quick count showed that there
+	were <m:math><m:cn>55</m:cn></m:math> M&amp;M's:
+	<m:math><m:cn>17</m:cn></m:math> brown,
+	<m:math><m:cn>18</m:cn></m:math> red,
+	<m:math><m:cn>7</m:cn></m:math> yellow,
+	<m:math><m:cn>7</m:cn></m:math> green,
+	<m:math><m:cn>2</m:cn></m:math> blue, and
+	<m:math><m:cn>4</m:cn></m:math> orange.  These counts are
+	shown below in <link target-id="table1" strength="3"/>.
+      </para>
+      <table frame="all" id="table1" summary="">
+	<title>Distributions of Colors</title>
+	<tgroup cols="2" colsep="1" rowsep="1">
+	  <thead>
+	    <row>
+	      <entry>Color</entry>
+	      <entry>Frequency</entry>
+	    </row>
+	  </thead>
+	  <tbody>
+	    <row>
+	      <entry>Brown</entry>
+	      <entry>17</entry>
+	    </row>
+	    <row>
+	      <entry>Red</entry>
+	      <entry>18</entry>
+	    </row>
+	    <row>
+	      <entry>Yellow</entry>
+	      <entry>7</entry>
+	    </row>
+	    <row>
+	      <entry>Green</entry>
+	      <entry>7</entry>
+	    </row>
+	    <row>
+	      <entry>Blue</entry>
+	      <entry>2</entry>
+	    </row>
+	    <row>
+	      <entry>Orange</entry>
+	      <entry>4</entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+      <para id="para2">
+	This table is called a <term>frequency table</term> and it
+	describes the distribution of M&amp;M color frequencies. Not
+	surprisingly, this kind of table is called a <term>frequency
+	distribution</term>. Often a frequency distribution is shown
+	graphically as in <link target-id="fig1" strength="3"/>.
+      </para>
+
+      <figure id="fig1">
+	<media id="idm1178912" alt=""><image src="../../media/mm_dist.gif" mime-type="image/gif"/></media>
+	<caption>Distribution of 55 M&amp;Ms</caption>
+      </figure>
+
+      <para id="para3">
+	The distribution shown in <link target-id="fig1" strength="3"/>
+	concerns just my one bag of M&amp;M's.  You might be wondering
+	about the distribution of colors for all M&amp;M's.  The
+	manufacturer of M&amp;M's provides some information about this
+	matter, but they do not tell us exactly how many M&amp;M's of
+	each color they have ever produced.  Instead, they report
+	proportions rather than frequencies. <link target-id="fig2" strength="3"/> shows these proportions. Since every M&amp;M is
+	one of the six familiar colors, the six proportions shown in
+	the figure add to one.  We call <link target-id="fig2" strength="3"/> a <term>probability distribution</term> because
+	if you chose an M&amp;M at random, the probability of getting,
+	say, a brown M&amp;M is equal to the proportion of M&amp;M's
+	that are brown (<m:math><m:cn>0.30</m:cn></m:math>).
+      </para>
+
+      <figure id="fig2">
+	<media id="idm2283296" alt=""><image src="../../media/mm_dist2.gif" mime-type="image/gif"/></media>
+	<caption>Distribution of all M&amp;Ms</caption>
+      </figure>
+
+      <para id="para4">
+	Notice that the distributions in <link target-id="fig1" strength="3"/> and <link target-id="fig2" strength="3"/> are not
+	identical.  <link target-id="fig1" strength="3"/> portrays the
+	distribution in a sample of <m:math><m:cn>55</m:cn></m:math>
+	M&amp;M's.  <link target-id="fig2" strength="3"/> shows the
+	proportions for all M&amp;M's.  Chance factors involving the
+	machines used by the manufacturer introduce random variation
+	into the different bags produced.  Some bags will have a
+	distribution of colors that is close to <link target-id="fig2" strength="3"/>; others will be farther away.
+      </para>
+    </section>
+
+    <section id="sect2">
+      <title>Continuous Variables</title>
+      <para id="para5">
+	The variable "color of M&amp;M" used in this example is a
+	<term>discrete variable</term>, and its distributions is also
+	called <emphasis>discrete</emphasis>.  Let us now extend the
+	concept of a distribution to <term>continuous
+	variables</term>.
+      </para>
+
+      <para id="para6">
+	The data shown in <link target-id="table2" strength="3"/> are the
+	times it took one of us (DL) to move the mouse over a small
+	target in a series of <m:math><m:cn>20</m:cn></m:math>
+	trials. The times are sorted from fastest to slowest.  The
+	variable "time to respond" is a continuous variable.  With
+	time measured accurately (to many decimal places), no two
+	response times would be expected to be the same.  Measuring
+	time in milliseconds (thousandths of a second) is often
+	precise enough to approximate a continuous variable in
+	Psychology.  As you can see in <link target-id="table2" strength="3"/>, measuring DL's responses this way produced
+	times no two of which were the same.  As a result, a frequency
+	distribution would be uninformative: it would consist of the
+	<m:math><m:cn>20</m:cn></m:math> times in the experiment, each
+	with a frequency of <m:math><m:cn>1</m:cn></m:math>.
+      </para>
+
+      <para id="para7">
+	The solution to this problem is to create a <term>grouped
+	  frequency distribution</term>.  In a grouped frequency
+	  distribution, scores falling withing various ranges are
+	  tabulated.  <link target-id="table3" strength="3"/> shows a
+	  grouped frequency distribution for these
+	  <m:math><m:cn>20</m:cn></m:math> times.
+      </para>
+
+      <figure orient="horizontal" id="fig3_2">
+	<subfigure id="subfig3">
+	  <table frame="all" id="table2" summary="">
+	    <title>Response Times (in milliseconds)</title>
+	    <tgroup cols="2" colsep="1" rowsep="1">
+	      <tbody>
+		<row>
+		  <entry>568</entry>
+		  <entry>720</entry>
+		</row>
+		<row>
+		  <entry>577</entry>
+		  <entry>728</entry>
+		</row>
+		<row>
+		  <entry>581</entry>
+		  <entry>729</entry>
+		</row>
+		<row>
+		  <entry>640</entry>
+		  <entry>777</entry>
+		</row>
+		<row>
+		  <entry>641</entry>
+		  <entry>808</entry>
+		</row>
+		<row>
+		  <entry>645</entry>
+		  <entry>824</entry>
+		</row>
+		<row>
+		  <entry>657</entry>
+		  <entry>825</entry>
+		</row>
+		<row>
+		  <entry>673</entry>
+		  <entry>865</entry>
+		</row>
+		<row>
+		  <entry>696</entry>
+		  <entry>875</entry>
+		</row>
+		<row>
+		  <entry>703</entry>
+		  <entry>1007</entry>
+		</row>
+	      </tbody>
+	    </tgroup>
+	  </table>
+        </subfigure>
+        <subfigure id="subfig3-2">
+	  <table frame="all" id="table3" summary="">
+	    <title>Grouped frequency distribution</title>
+	    <tgroup cols="2" colsep="1" rowsep="1">
+	      <thead valign="top">
+	        <row>
+	   	  <entry>Range</entry>
+		  <entry>Frequency</entry>
+	        </row>
+              </thead>
+              <tbody valign="top">
+                <row>
+                  <entry>500-600</entry>
+                  <entry>3</entry>
+                </row>
+                <row>
+                  <entry>600-700</entry>
+                  <entry>6</entry>
+                </row>
+                <row>
+                  <entry>700-800</entry>
+                  <entry>5</entry>
+                </row>
+                <row>
+                  <entry>800-900</entry>
+                  <entry>5</entry>
+                </row>
+                <row>
+                  <entry>900-1000</entry>
+                  <entry>0</entry>
+                </row>
+                <row>
+                  <entry>1000-1100</entry>
+                  <entry>1</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </subfigure>
+      </figure>
+
+      <para id="para8">
+	Grouped frequency distributions may be portrayed graphically.
+	<link target-id="fig3" strength="3"/> shows a graphical
+	representation of the frequency distribution in <link target-id="table2" strength="3"/>.  This kind of graph is called
+	a <term>histogram</term>. Chapter 2 contains an entire section
+	devoted to <link document="m10160" strength="2">histograms</link>.
+      </para>
+
+      <figure id="fig3">
+	<media id="idm3065296" alt=""><image src="../../media/histo.gif" mime-type="image/gif"/></media>
+	<caption>
+	  A histogram of the grouped frequency distribution shown in
+	  <link target-id="table3" strength="3"/>.  The labels on the
+	  <m:math><m:ci>X</m:ci></m:math>-axis are the middle values
+	  of the range they represent.
+	</caption>
+      </figure>
+    </section>
+
+    <section id="sect3">
+      <title>Probability Densities</title>
+      <para id="para9">
+	The histogram in <link target-id="fig3" strength="3"/> portrays
+	just DL's <m:math><m:cn>20</m:cn></m:math> times in the one
+	experiment he performed.  To represent the probability
+	associated with an arbitrary movement (which can take any
+	positive amount of time), we must represent all these
+	potential times at once.  For this purpose, we plot the
+	distribution for the continuous variable of time.
+	Distributions for continous variables are called
+	<term>continuous distributions</term>.  They also carry the
+	fancier name <term>probability density</term>.  Some
+	probability densities have particular importance in
+	Statistics.  A very important one is shaped like a bell, and
+	called the <term>normal distribution</term>.  Many
+	naturally-occuring phenomena can be approximated surprisingly
+	well by this distribution.  It will serve to illustrate some
+	features of all continous distributions.
+      </para>
+
+      <para id="para10">
+	An example of a normal distribution is shown in <link target-id="fig4" strength="3"/>.  Do you see the "bell"? The
+	normal distribution doesn't represent a real bell, however,
+	since the left and right tips extend indefinitely (we can't
+	draw them any further so they look like they've stopped in our
+	diagram).  The <m:math><m:ci>Y</m:ci></m:math> axis in the
+	normal distribution represents the " density of probability."
+	Intuitively, it shows the chance of obtaining values near
+	corresponding points on the <m:math><m:ci>X</m:ci></m:math>
+	axis.  In <link target-id="fig4" strength="3"/>, for example, the
+	probability of an observation with value near
+	<m:math><m:cn>40</m:cn></m:math> is about half of the
+	probability of an observation with value near
+	<m:math><m:cn>50</m:cn></m:math>.  Although this text does not
+	discuss the concept of probability density in detail, you
+	should keep the following ideas in mind about the curve that
+	describes a continuous distribution (like the normal
+	distribution).  First, the area under the curve equals 1.
+	Second, the probabiity of any exact value of
+	<m:math><m:ci>X</m:ci></m:math> is 0. Finally, the area under
+	the curve and bounded between two given points on the
+	<m:math><m:ci>X</m:ci></m:math> axis is the probability that a
+	number chosen at random will fall between the two points.  Let
+	us illustrate with DL's hand movements. First, the probability
+	that his movement takes some amount of time is one!  (We
+	exclude the possibility of him never finishing his gesture.)
+	Second, the probability that his movement takes exactly
+	<m:math><m:cn>598.956432342346576</m:cn></m:math> milliseconds
+	is essentially zero.  (We can make the probability as close as
+	we like to zero by making the time measurement more and more
+	precise.) Finally, suppose that the probability of DL's
+	movement taking between <m:math><m:cn>600</m:cn></m:math> and
+	<m:math><m:cn>700</m:cn></m:math> milliseconds is one tenth.
+	Then the continous distribution for DL's possible times would
+	have a shape that places <m:math><m:cn>10</m:cn></m:math>% of
+	the area below the curve in the region bounded by
+	<m:math><m:cn>600</m:cn></m:math> and
+	<m:math><m:cn>700</m:cn></m:math> on the
+	<m:math><m:ci>X</m:ci></m:math> axis.
+      </para>
+      <figure id="fig4">
+	<media id="idm3045216" alt=""><image src="../../media/normal_example.gif" mime-type="image/gif"/></media>
+	<caption>A Normal Distribution</caption>
+      </figure>
+    </section>
+
+    <section id="sect4">
+      <title>Shapes of Distributions</title>
+      <para id="para11">
+	Distributions have different shapes; they don't all look like
+	the normal distribution in <link target-id="fig4" strength="3"/>.
+	For example, the normal probability density is higher in the
+	middle compared to its two tails.  Other distributions need
+	not have this feature. There is even variation among the
+	distributions that we call "normal."  For example, some normal
+	distributions are more spread out than the one shown in <link target-id="fig4" strength="3"/> (their tails begin to hit the
+	<m:math><m:ci>X</m:ci></m:math> axis further from the middle
+	of the curve --for example, at
+	<m:math><m:cn>10</m:cn></m:math> and
+	<m:math><m:cn>90</m:cn></m:math> if drawn in place of <link target-id="fig2" strength="3"/> ).  Others are less spread out
+	(their tails might approach the
+	<m:math><m:ci>X</m:ci></m:math> axis at
+	<m:math><m:cn>30</m:cn></m:math> and
+	<m:math><m:cn>70</m:cn></m:math>).  More information on the
+	normal distribution can be found in a later chapter completely
+	devoted to them.
+      </para>
+      <para id="para12">
+	The normal distribution shown in <link target-id="fig4" strength="3"/> is symmetric; if you folded it in the middle,
+	the two sides would match perfectly.  <link target-id="fig5" strength="3"/> shows the discrete distribution of scores on a
+	psycholoogy test.  This distribution is not symmetric: the
+	tail in the positive direction extends further than the tail
+	in the negative direction.  A distribution with the longer
+	tail extending in the positive direction is said to have a
+	<term>positive skew</term>.  It is also described as "skewed
+	to the right."
+      </para>
+      <figure id="fig5">
+	<media id="idm3031296" alt=""><image src="../../media/image001-03a1.gif" mime-type="image/gif"/></media>
+	<caption>A distribution with a positive skew</caption>
+      </figure>
+      <para id="para13">
+	<link target-id="fig6" strength="3"/> shows the salaries of major
+	league baseball players in 1974 (in thousands of
+	dollars). This distribution has an extreme positive skew.
+      </para>
+      <figure id="fig6">
+	<media id="idm3027328" alt=""><image src="../../media/histo2.gif" mime-type="image/gif"/></media>
+	<caption>
+	  A distribution with a very large positive skew. This
+	  histogram shows the salaries of major league baseball
+	  players.
+	</caption>
+      </figure>
+      <para id="para14">
+	Although less common, some distributions have <term>negative
+	skew</term>.  <link target-id="fig7" strength="3"/> shows the
+	scores on a <m:math><m:cn>20</m:cn></m:math>-point problem on
+	a statistics exam.  Since the tail of the disribution extends
+	to the left, this distribution is <emphasis>skewed to the
+	left</emphasis>.
+      </para>
+      <figure id="fig7">
+	<media id="idm3021680" alt=""><image src="../../media/midterm11.gif" mime-type="image/gif"/></media>
+	<caption>
+	  A distribution with negative skew. This histogram shows the
+	  frequencies of various scores on a 20-point question on a
+	  statistics test.
+	</caption>
+      </figure>
+      <para id="para15">
+	The distributions shown so far all have one distinct high
+	point or peak.  The distribution in <link target-id="fig8" strength="3"/> has two distinct peaks.  A distribution with
+	two peaks is called a <term>bimodal distribution</term>.
+      </para>
+      <figure id="fig8">
+	<media id="idm3017056" alt=""><image src="../../media/faithful.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Frequencies of times between eruptions of the old faithful
+	  geyser. Notice the two distinct peaks: one at 1.85 and the
+	  other at 3.85.
+	</caption>
+      </figure>
+      <para id="para16">
+	Distributions also differ from each other in terms of how
+	large or "fat" their tails are.  <link target-id="fig9" strength="3"/> shows two distributions that differ in this
+	respect.  The upper distribution has relatively more scores in
+	its tails; its shape is called <term>leptokurtic</term>.  The
+	lower distribution has relatively fewer scores in its tails;
+	its shape is called <term>platykurtic</term>.
+      </para>
+      <figure id="fig9">
+	<media id="idm3011680" alt=""><image src="../../media/kurtosis.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Distributions differing in kurtosis. The top distribution
+	  has long tails. It is called "leptokurtic." The bottom
+	  distribution has short tails. It is called "platykurtic."
+	</caption>
+      </figure>
+    </section>
+  </content>
+</document>

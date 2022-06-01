@@ -1,0 +1,52 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col25762</md:content-id>
+    <md:title>Elements of Statistics Support</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>c4b49165-d60f-4461-8f28-a17492eabc19</md:uuid>
+<md:slug>elements-of-statistics-support</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Operations with Real Numbers</md:title>
+      <col:content>
+        <col:module document="m66089"/>
+        <col:module document="m21872"/>
+        <col:module document="m53077"/>
+        <col:module document="m66763"/>
+        <col:module document="m62534"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ordering of Real Numbers</md:title>
+      <col:content>
+        <col:module document="m21895"/>
+        <col:module document="m60150"/>
+        <col:module document="m13596"/>
+        <col:module document="m65172"/>
+        <col:module document="m66104"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Order of Operations</md:title>
+      <col:content>
+        <col:module document="m34872"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Analyze and Interpret Graphs</md:title>
+      <col:content>
+        <col:module document="m10215"/>
+        <col:module document="m10868"/>
+        <col:module document="m65294"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Miscellaneous Topics</md:title>
+      <col:content>
+        <col:module document="m65173"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

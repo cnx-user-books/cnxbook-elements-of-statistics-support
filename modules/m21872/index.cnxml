@@ -1,0 +1,2105 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Basic Operations with Real Numbers: Multiplication and Division of Signed Numbers</title>
+<metadata>
+  <md:content-id>m21872</md:content-id><md:title>Basic Operations with Real Numbers: Multiplication and Division of Signed Numbers</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The basic operations with real numbers are presented in this chapter. The concept of absolute value is discussed both geometrically and symbolically. The geometric presentation offers a visual understanding of the meaning of |x|. The symbolic presentation includes a literal explanation of how to use the definition. Negative exponents are developed, using reciprocals and the rules of exponents the student has already learned. Scientific notation is also included, using unique and real-life examples.
+Objectives of this module: be able to multiply and divide signed numbers.</md:abstract>
+  <md:uuid>21ad025a-f8ec-4615-8367-de004be614c9</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-990"><title>Overview</title><list id="eip-220"><item>Multiplication of Signed Numbers</item>
+	<item>Division of Signed Numbers</item>
+</list></section><section id="eip-557"><title>Multiplication of Signed Numbers</title><para id="eip-118">Let us consider first the product of two positive numbers.</para><para id="eip-502">Multiply: 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.<newline/>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> means 
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.
+
+
+
+
+</para><para id="eip-326">This suggests that
+</para><para id="eip-998"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para><para id="eip-231" class="highlight">More briefly, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>+</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.</para><para id="eip-758">Now consider the product of a positive number and a negative number. </para><para id="eip-764">Multiply: <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.<newline/><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> means <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>15</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para><para id="eip-242">This suggests that</para><para id="eip-210"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><para id="eip-199" class="highlight">More briefly, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para><para id="eip-805">By the commutative property of multiplication, we get </para><para id="eip-116"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>⋅</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><para id="eip-272" class="highlight">More briefly, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>-</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para><para id="eip-893">The sign of the product of two negative numbers can be determined using the following illustration: Multiply <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> by, respectively, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. Notice that when the multiplier decreases by 1, the product increases by 2.</para><para id="eip-742"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mtable columnalign="left">
+										<m:mtr>
+											<m:mtd>
+												<m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable>
+									<m:mo>}</m:mo></m:mrow><m:mo>→</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>As</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>know</m:mtext><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>0</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>→</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>As</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>know</m:mtext><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>⋅</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>any</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-442"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mtable columnalign="left">
+										<m:mtr>
+											<m:mtd>
+												<m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn>
+											</m:mtd>
+										</m:mtr>
+										<m:mtr>
+											<m:mtd>
+												<m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>8</m:mn>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable>
+									<m:mo>}</m:mo></m:mrow><m:mo>→</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>This</m:mtext><m:mtext> </m:mtext><m:mtext>pattern</m:mtext><m:mtext> </m:mtext><m:mtext>suggests</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>+</m:mo><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-833">We have the following rules for multiplying signed numbers.</para><para id="eip-817" class="highlight"><title>Rules for Multiplying Signed Numbers</title>To multiply two real numbers that have </para><list id="eip-194" list-type="enumerated" number-style="arabic"><item>the <term>same sign</term>, multiply their absolute values. The product is positive.<newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>+</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>+</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+	<item><term>opposite signs</term>, multiply their absolute values. The product is negative.<newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item>
+</list></section><section id="eip-575"><title>Sample Set A</title><para id="eip-44">
+Find the following products.
+</para><example id="eip-339"><para id="eip-503"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-445"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mrow><m:mtable columnalign="left">
+        <m:mtr>
+         <m:mtd>
+          <m:mrow><m:mo>|</m:mo> <m:mn>8</m:mn> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn>
+         </m:mtd>
+        </m:mtr>
+        <m:mtr>
+         <m:mtd>
+          <m:mrow><m:mo>|</m:mo> <m:mn>6</m:mn> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn>
+         </m:mtd>
+        </m:mtr>
+       </m:mtable>
+        <m:mo>}</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>48</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>same</m:mtext><m:mtext> </m:mtext><m:mtext>sign,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>product</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>positive</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>48</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>​</m:mtext><m:mtext>​</m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>48</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-284"><para id="eip-16"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-837"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mtext>.</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mrow><m:mtable columnalign="left">
+											<m:mtr>
+												<m:mtd>
+													<m:mrow><m:mo>|</m:mo>
+														<m:mrow>
+															<m:mo>−</m:mo><m:mn>8</m:mn>
+														</m:mrow>
+														<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn>
+												</m:mtd>
+											</m:mtr>
+											<m:mtr>
+												<m:mtd>
+													<m:mrow><m:mo>|</m:mo>
+														<m:mrow>
+															<m:mo>−</m:mo><m:mn>6</m:mn>
+														</m:mrow>
+														<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>6</m:mn>
+												</m:mtd>
+											</m:mtr>
+										</m:mtable>
+										<m:mo>}</m:mo></m:mrow>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>48</m:mn>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>same</m:mtext><m:mtext> </m:mtext><m:mtext>sign,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>product</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>positive</m:mtext><m:mtext>.</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>+</m:mo><m:mn>48</m:mn>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>48</m:mn>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></para></example><example id="eip-483"><para id="eip-209"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+</para><para id="eip-55"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mrow>
+										<m:mtable>
+											<m:mtr>
+												<m:mtd>
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mo>−</m:mo><m:mn>4</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd>
+													<m:mrow>
+														<m:mo>=</m:mo><m:mn>4</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+											<m:mtr>
+												<m:mtd>
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mn>7</m:mn>
+															<m:mo>|</m:mo></m:mrow>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd>
+													<m:mrow>
+														<m:mo>=</m:mo><m:mn>7</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+										</m:mtable>
+									</m:mrow>
+									<m:mo>}</m:mo></m:mrow>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>28</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>opposite</m:mtext><m:mtext> </m:mtext><m:mtext>signs,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>product</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>negative</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>28</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+</example><example id="eip-637"><para id="eip-400"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-369"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mrow>
+										<m:mtable columnalign="right">
+											<m:mtr columnalign="right">
+												<m:mtd columnalign="right">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mn>6</m:mn>
+															<m:mo>|</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="right">
+													<m:mrow>
+														<m:mo>=</m:mo><m:mn>6</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+											<m:mtr columnalign="right">
+												<m:mtd columnalign="right">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mo>−</m:mo><m:mn>3</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="right">
+													<m:mrow>
+														<m:mo>=</m:mo><m:mn>3</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+										</m:mtable>
+									</m:mrow>
+									<m:mo>}</m:mo></m:mrow>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>6</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>18</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>opposite</m:mtext><m:mtext> </m:mtext><m:mtext>signs,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>product</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>negative</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>18</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+</example></section><section id="eip-489"><title>Practice Set A</title><para id="eip-865">
+Find the following products.
+</para><exercise id="eip-536"><problem id="eip-825">
+		<para id="eip-9"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+	</problem>
+	<solution id="eip-611">
+		<para id="eip-525"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>24</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-658"><problem id="eip-512">
+		<para id="eip-951">
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>16</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-335">
+		<para id="eip-863">64</para>
+	</solution>
+</exercise><exercise id="eip-302"><problem id="eip-189">
+		<para id="eip-549">
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-754">
+		<para id="eip-761">30</para>
+	</solution>
+</exercise><exercise id="eip-498"><problem id="eip-846">
+		<para id="eip-221"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-361">
+		<para id="eip-515">14</para>
+	</solution>
+</exercise><exercise id="eip-229"><problem id="eip-859">
+		<para id="eip-65">
+   
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-577">
+		<para id="eip-542"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</solution>
+</exercise><exercise id="eip-891"><problem id="eip-640">
+		<para id="eip-304"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</problem>
+	<solution id="eip-680">
+		<para id="eip-949"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>49</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+</para>
+	</solution>
+</exercise></section><section id="eip-338"><title>Division of Signed Numbers</title><para id="eip-280">We can determine the sign pattern for division by relating division to multiplication. Division is defined in terms of multiplication in the following way. </para><para id="eip-675" class="highlight">If <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, then 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mi>a</m:mi>
+					<m:mi>b</m:mi>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mi>c</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para><para id="eip-734">For example, since 
+
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>12</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, it follows that 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mn>12</m:mn>
+					</m:mrow>
+					<m:mn>3</m:mn>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+
+
+
+
+
+</para><para id="eip-801">Notice the pattern: </para><para id="eip-913">Since 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+					</m:mrow>
+				</m:munder>
+				<m:mo>=</m:mo><m:mn>12</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, it follows that 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mn>12</m:mn>
+								</m:mrow>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mfrac>
+							<m:mi>a</m:mi>
+							<m:mi>b</m:mi>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:mi>c</m:mi>
+					</m:mrow>
+				</m:munder>
+				<m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><para id="eip-682">The sign pattern for division follows from the sign pattern for multiplication. </para><list id="eip-553" list-type="enumerated" number-style="arabic"><item>Since <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>+</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, it follows that <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mfrac>
+								<m:mi>a</m:mi>
+								<m:mi>b</m:mi>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>+</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, that is, <para id="eip-id17624745" class="highlight"><m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mfrac>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math>
+		</para></item>
+	<item>Since <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>+</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, it follows that <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mfrac>
+								<m:mi>a</m:mi>
+								<m:mi>b</m:mi>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>−</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, that is, <para id="eip-id7548693" class="highlight"><m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mfrac>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math></para></item>
+	<item>Since <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>−</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, it follows that <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mfrac>
+								<m:mi>a</m:mi>
+								<m:mi>b</m:mi>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>−</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>,
+ that is, <para id="eip-id10321654" class="highlight"><m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mfrac>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math></para></item>
+	<item>Since <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>−</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, it follows that <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mfrac>
+								<m:mi>a</m:mi>
+								<m:mi>b</m:mi>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:mo>+</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, that is<para id="eip-id21929531" class="highlight"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+					</m:mrow>
+					<m:mrow>
+						<m:mo stretchy="false">(</m:mo><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo stretchy="false">)</m:mo>
+					</m:mrow>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para></item></list><para id="eip-920">We have the following rules for dividing signed numbers.</para><para id="eip-215" class="highlight"><title>Rules for Dividing Signed Numbers</title>To divide two real numbers that have</para><list id="eip-573" list-type="enumerated" number-style="arabic"><item>the <term>same sign</term>, divide their absolute values. The quotient is positive.<newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mo>+</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mo>+</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</item><item><term>opposite signs</term>, divide their absolute values. The quotient is negative.<newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mo>−</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>+</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mo>−</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</item>
+	</list></section><section id="eip-177"><title>Sample Set B</title><para id="eip-14">Find the following quotients.</para><example id="eip-736"><para id="eip-612"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>10</m:mn>
+						</m:mrow>
+						<m:mn>2</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></para><para id="eip-299"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mrow>
+										<m:mtable columnalign="left">
+											<m:mtr columnalign="left">
+												<m:mtd columnalign="left">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mo>-</m:mo><m:mn>10</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="left">
+													<m:mrow>
+														<m:mn>10</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+											<m:mtr columnalign="left">
+												<m:mtd columnalign="right">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mn>2</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="right">
+													<m:mn>2</m:mn>
+												</m:mtd>
+											</m:mtr>
+										</m:mtable>
+									</m:mrow>
+									<m:mo>}</m:mo></m:mrow>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>10</m:mn>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:mfrac>
+								<m:mo>=</m:mo><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mo>-</m:mo><m:mn>10</m:mn>
+									</m:mrow>
+									<m:mrow>
+										<m:mn>2</m:mn>
+									</m:mrow>
+								</m:mfrac>
+								<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>opposite</m:mtext><m:mtext> </m:mtext><m:mtext>signs,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>quotient</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>negative</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para></example><example id="eip-185"><para id="eip-956"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>35</m:mn>
+						</m:mrow>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>7</m:mn>
+						</m:mrow>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></para><para id="eip-147"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mrow><m:mrow>
+											<m:mtable columnalign="left">
+												<m:mtr columnalign="left">
+													<m:mtd columnalign="left">
+														<m:mrow>
+															<m:mrow><m:mo>|</m:mo>
+																<m:mrow>
+																	<m:mo>-</m:mo><m:mn>35</m:mn>
+																</m:mrow>
+																<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+														</m:mrow>
+													</m:mtd>
+													<m:mtd columnalign="left">
+														<m:mrow>
+															<m:mn>35</m:mn>
+														</m:mrow>
+													</m:mtd>
+												</m:mtr>
+												<m:mtr columnalign="left">
+													<m:mtd columnalign="right">
+														<m:mrow>
+															<m:mrow><m:mo>|</m:mo>
+																<m:mrow>
+																	<m:mo>-</m:mo><m:mn>7</m:mn>
+																</m:mrow>
+																<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+														</m:mrow>
+													</m:mtd>
+													<m:mtd columnalign="right">
+														<m:mn>7</m:mn>
+													</m:mtd>
+												</m:mtr>
+											</m:mtable>
+										</m:mrow>
+										<m:mo>}</m:mo></m:mrow>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mo>.</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mfrac>
+										<m:mrow>
+											<m:mn>35</m:mn>
+										</m:mrow>
+										<m:mn>7</m:mn>
+									</m:mfrac>
+									<m:mo>=</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mfrac>
+										<m:mrow>
+											<m:mo>-</m:mo><m:mn>35</m:mn>
+										</m:mrow>
+										<m:mrow>
+											<m:mo>-</m:mo><m:mn>7</m:mn>
+										</m:mrow>
+									</m:mfrac>
+									<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>same</m:mtext><m:mtext> </m:mtext><m:mtext>signs,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>quotient</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>positive</m:mtext><m:mtext>.</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</para>
+</example><example id="eip-842"><para id="eip-222">
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>18</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>9</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+</para><para id="eip-19"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mrow>
+										<m:mtable columnalign="left">
+											<m:mtr columnalign="left">
+												<m:mtd columnalign="left">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mn>18</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="left">
+													<m:mrow>
+														<m:mn>18</m:mn>
+													</m:mrow>
+												</m:mtd>
+											</m:mtr>
+											<m:mtr columnalign="left">
+												<m:mtd columnalign="left">
+													<m:mrow>
+														<m:mrow><m:mo>|</m:mo>
+															<m:mrow>
+																<m:mo>-</m:mo><m:mn>9</m:mn>
+															</m:mrow>
+															<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo>
+													</m:mrow>
+												</m:mtd>
+												<m:mtd columnalign="left">
+													<m:mn>9</m:mn>
+												</m:mtd>
+											</m:mtr>
+										</m:mtable>
+									</m:mrow>
+									<m:mo>}</m:mo></m:mrow>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>these</m:mtext><m:mtext> </m:mtext><m:mtext>absolute</m:mtext><m:mtext> </m:mtext><m:mtext>values</m:mtext><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>18</m:mn>
+									</m:mrow>
+									<m:mn>9</m:mn>
+								</m:mfrac>
+								<m:mo>=</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>18</m:mn>
+									</m:mrow>
+									<m:mrow>
+										<m:mo>-</m:mo><m:mn>9</m:mn>
+									</m:mrow>
+								</m:mfrac>
+								<m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Since</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>have</m:mtext><m:mtext> </m:mtext><m:mtext>opposite</m:mtext><m:mtext> </m:mtext><m:mtext>signs,</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>quotient</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>negative</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+</example></section><section id="eip-696"><title>Practice Set B</title><para id="eip-974">
+Find the following quotients. 
+</para><exercise id="eip-100"><problem id="eip-97">
+		<para id="eip-337">
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>24</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-954">
+		<para id="eip-69">4</para>
+	</solution>
+</exercise><exercise id="eip-713"><problem id="eip-731">
+		<para id="eip-668"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>30</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+	</problem>
+	<solution id="eip-358">
+		<para id="eip-923"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-47"><problem id="eip-922">
+		<para id="eip-687"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>54</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>27</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+	</problem>
+	<solution id="eip-864">
+		<para id="eip-625"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-174"><problem id="eip-806">
+		<para id="eip-172"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>51</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>17</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+	</problem>
+	<solution id="eip-393">
+		<para id="eip-78">3</para>
+	</solution>
+</exercise></section><section id="eip-605"><title>Sample Set C</title><example id="eip-123"><para id="eip-87">Find the value of 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>
+					</m:mrow>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn>
+					</m:mrow>
+				</m:mfrac>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para><para id="eip-669">Using the order of operations and what we know about signed numbers, we get</para><para id="eip-63"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>18</m:mn><m:mo>+</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>20</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>4</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-816"><para id="eip-722">Find the value of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+					<m:mrow>
+						<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>u</m:mi>
+					</m:mrow>
+					<m:mi>s</m:mi>
+				</m:mfrac>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> if <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>57</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>51</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para><para id="eip-950">Substituting these values we get</para><para id="eip-822"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>57</m:mn><m:mo>−</m:mo><m:mn>51</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example></section><section id="eip-819"><title>Practice Set C</title><exercise id="eip-51"><problem id="eip-207">
+		<para id="eip-858">
+Find the value of 
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>17</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. </para>
+	</problem>
+	<solution id="eip-346">
+		<para id="eip-597">1</para>
+	</solution>
+</exercise><exercise id="eip-405"><problem id="eip-737">
+		<para id="eip-686">Find the value of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+					<m:mrow>
+						<m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+					</m:mrow>
+					<m:mrow>
+						<m:mn>2</m:mn><m:mi>n</m:mi>
+					</m:mrow>
+				</m:mfrac>
+							</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, if <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para>
+	</problem>
+	<solution id="eip-128">
+		<para id="eip-814">1</para>
+	</solution>
+</exercise></section>
+<section id="eip-12" class="homework"><title>Exercises</title><para id="eip-324">Find the value of each of the following expressions. </para><exercise id="eip-999"><problem id="eip-82">		<para id="eip-703"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4240859"><para id="fs-id4240860">16</para></solution>	</exercise><exercise id="eip-578"><problem id="eip-232">		<para id="eip-795">  <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-788"><problem id="eip-621">		<para id="eip-156"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4240969"><para id="fs-id4240970">32</para></solution>	</exercise><exercise id="eip-430"><problem id="eip-537">		<para id="eip-480">    <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-807"><problem id="eip-93">		<para id="eip-829"> <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> </para>	
+</problem><solution id="fs-id4241078"><para id="fs-id4241079">54</para></solution>	</exercise><exercise id="eip-804"><problem id="eip-872">		<para id="eip-433">    <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-650"><problem id="eip-365">		<para id="eip-110"><m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem><solution id="fs-id4241187"><para id="fs-id4241188">32</para></solution>	</exercise><exercise id="eip-176"><problem id="eip-70">		<para id="eip-301">   <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-45"><problem id="eip-104">		<para id="eip-576"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4241293"><para id="fs-id4241294"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-683"><problem id="eip-114">		<para id="eip-308"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-214"><problem id="eip-276">		<para id="eip-201"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4241396"><para id="fs-id4241397"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>32</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-120"><problem id="eip-68">		<para id="eip-443"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-17"><problem id="eip-995">		<para id="eip-386"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4241490"><para id="fs-id4241491"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>18</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-933"><problem id="eip-479">		<para id="eip-607">    <m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-11"><problem id="eip-40">		<para id="eip-518">  <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mn>4</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4241585"><para id="fs-id4241586"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-899"><problem id="eip-563">		<para id="eip-750"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-467"><problem id="eip-926">		<para id="eip-253"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4241679"><para id="fs-id4241680"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>90</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-366"><problem id="eip-187">		<para id="eip-796">    <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mn>12</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> </para>	
+</problem>	</exercise><exercise id="eip-791"><problem id="eip-975">		<para id="eip-190"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4241781"><para id="fs-id4241782"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>60</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-76"><problem id="eip-434">		<para id="eip-928"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-695"><problem id="eip-744">		<para id="eip-92"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4241890"><para id="fs-id4241891"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-574"><problem id="eip-507">		<para id="eip-777"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> </para>	
+</problem>	</exercise><exercise id="eip-775"><problem id="eip-583">		<para id="eip-30"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>21</m:mn>    </m:mrow>    <m:mn>7</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4241989"><para id="fs-id4241990">3</para></solution>
+	</exercise><exercise id="eip-10"><problem id="eip-5">		<para id="eip-410">    <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>42</m:mn>    </m:mrow>    <m:mn>6</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> </para>	
+</problem>	</exercise><exercise id="eip-562"><problem id="eip-58">		<para id="eip-719">    <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mo>−</m:mo><m:mn>39</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242076"><para id="fs-id4242077"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>13</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-840"><problem id="eip-66">		<para id="eip-333">    <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mo>−</m:mo><m:mn>20</m:mn>    </m:mrow>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-762"><problem id="eip-620">		<para id="eip-64">    <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mo>−</m:mo><m:mn>45</m:mn>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>5</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242179"><para id="fs-id4242180">9</para></solution>
+	</exercise><exercise id="eip-23"><problem id="eip-435">		<para id="eip-593">    <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mo>−</m:mo><m:mn>16</m:mn>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>8</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-139"><problem id="eip-608">		<para id="eip-622"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>25</m:mn>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>5</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242274"><para id="fs-id4242276"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-381"><problem id="eip-743">		<para id="eip-353"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>36</m:mn>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-870"><problem id="eip-375">		<para id="eip-802">    <m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> </para>	
+</problem><solution id="fs-id4242374"><para id="fs-id4242375">11</para></solution>
+	</exercise><exercise id="eip-602"><problem id="eip-42">		<para id="eip-56"><m:math> <m:semantics>  <m:mrow>   <m:mn>14</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-492"><problem id="eip-450">		<para id="eip-614"><m:math> <m:semantics>  <m:mrow>   <m:mn>20</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242466"><para id="fs-id4242467">28</para></solution>
+	</exercise><exercise id="eip-702"><problem id="eip-380">		<para id="eip-969"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-800"><problem id="eip-847">		<para id="eip-945">    <m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>−</m:mo><m:mn>4</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242551"><para id="fs-id4242552"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-178"><problem id="eip-632">		<para id="eip-901"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-213"><problem id="eip-821">		<para id="eip-327"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>7</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4242645"><para id="fs-id4242646"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>12</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-768"><problem id="eip-388">		<para id="eip-929"><m:math> <m:semantics>  <m:mrow>   <m:mn>15</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>−</m:mo><m:mn>20</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-306"><problem id="eip-169">		<para id="eip-871"><m:math>		<m:semantics>			<m:mrow>				<m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>8</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem><solution id="fs-id4242736"><para id="fs-id4242737"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-291"><problem id="eip-755">		<para id="eip-925"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>2</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	</exercise><exercise id="eip-993"><problem id="eip-24">		<para id="eip-394"><m:math>		<m:semantics>			<m:mrow>				<m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem><solution id="fs-id4242832"><para id="fs-id4242833"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-1000"><problem id="eip-99">		<para id="eip-241"><m:math>		<m:semantics>			<m:mrow>				<m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	</exercise><exercise id="eip-830"><problem id="eip-313">		<para id="eip-331">			<m:math>				<m:semantics>					<m:mrow>						<m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>		</para>	
+</problem><solution id="fs-id4242935"><para id="fs-id4242936">15</para></solution>
+	</exercise><exercise id="eip-854"><problem id="eip-204">		<para id="eip-638"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-898"><problem id="eip-939">		<para id="eip-230"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243054"><para id="fs-id4243056">49</para></solution>
+	</exercise><exercise id="eip-378"><problem id="eip-175">		<para id="eip-892"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>0</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-491"><problem id="eip-159">		<para id="eip-166">    <m:math> <m:semantics>  <m:mrow>   <m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243228"><para id="fs-id4243229"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>140</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-263"><problem id="eip-690">		<para id="eip-604"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-570"><problem id="eip-38">		<para id="eip-523"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4243390"><para id="fs-id4243392"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-874"><problem id="eip-672">		<para id="eip-239"><m:math>		<m:semantics>			<m:mrow>				<m:mfrac>					<m:mrow>						<m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn>					</m:mrow>					<m:mrow>						<m:mo>−</m:mo><m:mn>1</m:mn>					</m:mrow>				</m:mfrac>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	</exercise><exercise id="eip-67"><problem id="eip-571">		<para id="eip-989"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>    </m:mrow>    <m:mrow>     <m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243554"><para id="fs-id4243556"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-7"><problem id="eip-663">		<para id="eip-910">    <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-642"><problem id="eip-441">		<para id="eip-277"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243658"><para id="fs-id4243659"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-192"><problem id="eip-328">		<para id="eip-639"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-836"><problem id="eip-657">		<para id="eip-150"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4243754"><para id="fs-id4243756">13</para></solution>
+	</exercise><exercise id="eip-885"><problem id="eip-561">		<para id="eip-265"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-203"><problem id="eip-595">		<para id="eip-962">    <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243848"><para id="fs-id4243849"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-274"><problem id="eip-599">		<para id="eip-914">    <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-422"><problem id="eip-581">		<para id="eip-171"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4243947"><para id="fs-id4243948">4</para></solution>
+	</exercise><exercise id="eip-252"><problem id="eip-363">		<para id="eip-162"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-234"><problem id="eip-316">		<para id="eip-834"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4244096"><para id="fs-id4244097"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-59"><problem id="eip-772">		<para id="eip-918"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-85"><problem id="eip-941">		<para id="eip-293"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="fs-id4244249"><para id="fs-id4244250">15</para></solution>
+	</exercise><exercise id="eip-297"><problem id="eip-368">		<para id="eip-505"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">[</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-96"><problem id="eip-560">		<para id="eip-774">   <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">[</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4244414"><para id="fs-id4244415">2</para></solution>
+	</exercise><exercise id="eip-48"><problem id="eip-895">		<para id="eip-188"><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>P</m:mi><m:mo>=</m:mo><m:mi>R</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo>.</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>P</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>R</m:mi><m:mo>=</m:mo><m:mn>2000</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>2500</m:mn><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	</exercise><exercise id="eip-447"><problem id="eip-799">		<para id="eip-464">    <m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>        <m:mrow>         <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>u</m:mi>        </m:mrow>        <m:mi>s</m:mi>       </m:mfrac>       <m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>z</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>23</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>1.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4244630"><para id="fs-id4244631"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-600"><problem id="eip-456">		<para id="eip-635"><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>        <m:mrow>         <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>u</m:mi>        </m:mrow>        <m:mi>s</m:mi>       </m:mfrac>       <m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>z</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>410</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>430</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>2.5.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-107"><problem id="eip-661">		<para id="eip-769"><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>        <m:mrow>         <m:mn>2</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>        </m:mrow>        <m:mi>T</m:mi>       </m:mfrac>       <m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>5.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4244863"><para id="fs-id4244864"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-251"><problem id="eip-53">		<para id="eip-406"><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>        <m:mrow>         <m:mn>2</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>        </m:mrow>        <m:mi>T</m:mi>       </m:mfrac>       <m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>m</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>s</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>10</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>T</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-351"><problem id="eip-852">		<para id="eip-458"><media id="C02_S2-5_P66_001_01" display="inline" alt="Use a calculator.">		<image mime-type="image/png" src="../../media/C02_S2-5_P66_001.png" print-width="0.2in"/>	</media><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>F</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub>									<m:mi>p</m:mi>									<m:mn>1</m:mn>								</m:msub>								<m:mo>−</m:mo><m:msub>									<m:mi>p</m:mi>									<m:mn>2</m:mn>								</m:msub>								<m:mo stretchy="false">)</m:mo><m:msup>									<m:mi>r</m:mi>									<m:mn>4</m:mn>								</m:msup>								<m:mo>⋅</m:mo><m:mn>9.</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>F</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:msub>									<m:mi>p</m:mi>									<m:mn>1</m:mn>								</m:msub>								<m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msub>									<m:mi>p</m:mi>									<m:mn>2</m:mn>								</m:msub>								<m:mo>=</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem><solution id="fs-id4245149"><para id="fs-id4245150">1458</para></solution>
+	</exercise><exercise id="eip-95"><problem id="eip-382">		<para id="eip-319"><media id="C02_S2-5_P66_001_02" display="inline" alt="Use a calculator.">		<image mime-type="image/png" src="../../media/C02_S2-5_P66_001.png" print-width="0.2in"/>	</media><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>F</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:msub>									<m:mi>p</m:mi>									<m:mn>1</m:mn>								</m:msub>								<m:mo>−</m:mo><m:msub>									<m:mi>p</m:mi>									<m:mn>2</m:mn>								</m:msub>								<m:mo stretchy="false">)</m:mo><m:msup>									<m:mi>r</m:mi>									<m:mn>4</m:mn>								</m:msup>								<m:mo>⋅</m:mo><m:mn>9.</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>F</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:msub>									<m:mi>p</m:mi>									<m:mn>1</m:mn>								</m:msub>								<m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msub>									<m:mi>p</m:mi>									<m:mn>2</m:mn>								</m:msub>								<m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2.</m:mn>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	</exercise><exercise id="eip-385"><problem id="eip-281">		<para id="eip-83">    <m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>P</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4245427"><para id="fs-id4245428"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>120</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-384"><problem id="eip-105">		<para id="eip-109">    <m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>P</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-580"><problem id="eip-477">		<para id="eip-733">  <m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>        <m:mrow>         <m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>        </m:mrow>        <m:mrow>         <m:mn>2</m:mn><m:mi>n</m:mi>        </m:mrow>       </m:mfrac>       <m:mo>.</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>Find</m:mtext><m:mtext> </m:mtext><m:mi>P</m:mi><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="fs-id4245684"><para id="fs-id4245685">40</para></solution>
+	</exercise></section><section id="eip-266"><title>Exercises for Review</title><exercise id="eip-46"><problem id="eip-811">
+			<para id="eip-875"><emphasis>(<link document="m21895"/>)</emphasis> What natural numbers can replace <m:math>
+					<m:semantics>
+						<m:mi>x</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> so that the statement <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> is true?    </para>
+		</problem>
+	</exercise><exercise id="eip-296"><problem id="eip-466">
+			<para id="eip-628"><emphasis>(<link document="m21900"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:msup>
+										<m:mrow>
+											<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+										</m:mrow>
+										<m:mn>5</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mrow>
+											<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+										</m:mrow>
+										<m:mn>7</m:mn>
+									</m:msup>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mrow>
+											<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+										</m:mrow>
+										<m:mn>3</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mrow>
+											<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+										</m:mrow>
+										<m:mn>6</m:mn>
+									</m:msup>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.  </para>
+		</problem><solution id="fs-id4245905"><para id="fs-id4245906"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mrow>
+									<m:mrow><m:mo>(</m:mo>
+										<m:mrow>
+											<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>
+										</m:mrow>
+										<m:mo>)</m:mo></m:mrow>
+								</m:mrow>
+								<m:mn>2</m:mn>
+							</m:msup>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-420"><problem id="eip-937">
+			<para id="eip-610"><emphasis>(<link document="m21897"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:msup>
+										<m:mi>x</m:mi>
+										<m:mi>n</m:mi>
+									</m:msup>
+									<m:msup>
+										<m:mi>y</m:mi>
+										<m:mrow>
+											<m:mn>3</m:mn><m:mi>t</m:mi>
+										</m:mrow>
+									</m:msup>
+									<m:mo stretchy="false">)</m:mo>
+								</m:mrow>
+								<m:mn>5</m:mn>
+							</m:msup>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.  </para>
+		</problem>
+	</exercise><exercise id="eip-958"><problem id="eip-554">
+			<para id="eip-629"><emphasis>(<link document="m21991"/>)</emphasis> Find the sum. <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.  </para>
+		</problem><solution id="fs-id4246092"><para id="fs-id4246093"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-484"><problem id="eip-790">
+			<para id="eip-163"><emphasis>(<link document="m21877"/>)</emphasis> Find the difference. <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.  </para>
+		</problem>
+	</exercise></section></content></document>

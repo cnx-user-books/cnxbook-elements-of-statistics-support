@@ -1,0 +1,1496 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Basic Properties of Real Numbers: The Real Number Line and the Real Numbers</title>
+<metadata>
+  <md:content-id>m21895</md:content-id><md:title>Basic Properties of Real Numbers: The Real Number Line and the Real Numbers</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The symbols, notations, and properties of numbers that form the basis of algebra, as well as exponents and the rules of exponents, are introduced in this chapter. Each property of real numbers and the rules of exponents are expressed both symbolically and literally. Literal explanations are included because symbolic explanations alone may be difficult for a student to interpret.
+Objectives of this module: be familiar with the real number line and the real numbers, understand the ordering of the real numbers.</md:abstract>
+  <md:uuid>334c9b83-34e6-4a22-a17f-cf1f3f9eb587</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-426"><title>Overview</title><list id="eip-0"><item>The Real Number Line</item>
+	<item>The Real Numbers</item>
+	<item>Ordering the Real Numbers</item></list></section><section id="eip-995"><title>The Real Number Line</title><para id="eip-76"><title>Real Number Line</title>In our study of algebra, we will use several collections of numbers. The <term>real number line</term> allows us to <emphasis>visually</emphasis> display the numbers in which we are interested.</para><para id="eip-715">A line is composed of infinitely many points. To each point we can associate a unique number, and with each number we can associate a particular point.</para><para id="eip-79" class="highlight"><title>Coordinate</title>The number associated with a point on the number line is called the <term>coordinate</term> of the point.</para><para id="eip-419" class="highlight"><title>Graph</title>The point on a line that is associated with a particular number is called the <term>graph</term> of that number.</para><para id="eip-409">We construct the real number line as follows:</para><list id="eip-728" list-type="enumerated" number-style="arabic"><title>Construction of the Real Number Line</title><item>Draw a horizontal line.<newline/><newline/><media id="C01_S1-2_P08_001" display="block" alt="A horizontal line with arrows on both the ends.">
+			<image mime-type="image/png" src="../../media/C01_S1-2_P08_001.png" print-width="3in"/>
+		</media></item>
+	<item>Choose any point on the line and label it 0. This point is called the <term>origin</term>.<newline/><newline/><media id="C01_S1-2_P08_002" display="block" alt="A horizontal line with arrows on both the ends,  and a mark labeled as zero.">
+			<image mime-type="image/png" src="../../media/C01_S1-2_P08_002.png" print-width="3in"/>
+		</media></item>
+	<item>Choose a convenient length. This length is called "1 unit." Starting at 0, mark this length off in both directions, being careful to have the lengths look like they are about the same.<newline/><newline/><media id="C01_S1-2_P08_003" display="block" alt="A horizontal line with arrows on both the ends, and a mark labeled as zero. There are  equidistant marks on both sides of zero.">
+			<image mime-type="image/png" src="../../media/C01_S1-2_P08_003.png" print-width="3in"/>
+		</media><para id="eip-786">We now define a real number.</para></item></list><para id="eip-352" class="hightlight"><title>Real Number</title>A <term>real number</term> is any number that is the coordinate of a point on the real number line.</para><para id="eip-743"><title>Positive and Negative Real Numbers</title>The collection of these infinitely many numbers is called the <emphasis>collection of real numbers</emphasis>. The real numbers whose graphs are to the right of 0 are called the <term>positive real numbers</term>. The real numbers whose graphs appear to the left of 0 are called the <term>negative real numbers</term>.<newline/>
+<media id="C01_S1-2_P08_004" display="block" alt="The real numbers having graphs on the right side of the origin are positive numbers, and those having graphs on the left side of the origin are negative numbers.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P08_004.png" print-width="3in"/>
+	</media></para><para id="eip-955">The number 0 is neither positive nor negative.</para></section><section id="eip-357"><title>The Real Numbers</title><para id="eip-81">The collection of real numbers has many subcollections. The subcollections that are of most interest to us are listed below along with their notations and graphs.</para><para id="eip-760"><title>Natural Numbers</title>The <term>natural numbers <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo stretchy="false">(</m:mo><m:mi>N</m:mi><m:mo stretchy="false">)</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>:</term>  <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>{</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>…</m:mo><m:mo>}</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><newline/>
+
+	<media id="C01_S1-2_P09_001" display="block" alt="Graphs of natural numbers one to six plotted on a number line. The numberline has arrows on each sides, and is labeled from zero to six in increments of one. There are three dots after six indicating that the graph continues indefinitely.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P09_001.png" print-width="3in"/>
+	</media>
+</para><para id="eip-208"><title>Whole Numbers</title>The <term>whole numbers <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo stretchy="false">(</m:mo><m:mi>W</m:mi><m:mo stretchy="false">)</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>:</term>  <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>{</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>…</m:mo><m:mo>}</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><newline/>
+
+	<media id="C01_S1-2_P09_002" display="block" alt="Graphs of whole numbers zero to six plotted on a number line. The number line has arrows on each side, and is labeled from zero to six in increments of one. There are three dots after six indicating that the graph continues indefinitely.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P09_002.png" print-width="3in"/>
+	</media><newline/><newline/>Notice that every natural number is a whole number.
+</para><para id="eip-314"><title>Integers</title>The <term>integers <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo stretchy="false">(</m:mo><m:mi>Z</m:mi><m:mo stretchy="false">)</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>:</term>  <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>{</m:mo><m:mo>…</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>…</m:mo><m:mo>}</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+<newline/>
+<newline/>
+
+<media id="C01_S1-2_P09_003" display="block" alt="Graphs of integers negative five to five plotted on a number line. The number line has arrows on each side, and is labeled from negative five to five in increments of one. There are three dots after five indicating that the graph continues indefinitely.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P09_003.png" print-width="3in"/>
+	</media><newline/><newline/>Notice that every whole number is an integer.
+</para><para id="eip-483"><title>Rational Numbers</title>The <term>rational numbers <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>Q</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>:</term> Rational numbers are real numbers that can be written in the form <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mi>a</m:mi><m:mo>/</m:mo><m:mi>b</m:mi></m:mrow>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>, where <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> and <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> are integers, and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.</para><para id="eip-424"><title>Fractions</title>Rational numbers are commonly called <term>fractions.</term></para><para id="eip-212"><title>Division by 1</title>Since <m:math>
+		<m:semantics>
+			<m:mi>b</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> can equal 1, every integer is a rational number: <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mi>a</m:mi>
+					<m:mn>1</m:mn>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mi>a</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para><para id="eip-444"><title>Division by 0</title>Recall that <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mrow><m:mrow>
+						<m:mn>10</m:mn>
+					</m:mrow><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow>
+				<m:mo>=</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. However, if <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mrow><m:mrow>
+						<m:mn>10</m:mn>
+					</m:mrow><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow>
+				<m:mo>=</m:mo><m:mi>x</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, then <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>0</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. But <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>0</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, not 10. This suggests that no quotient exists.</para><para id="eip-253">Now consider <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mrow><m:mn>0</m:mn><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow>
+				<m:mo>=</m:mo><m:mi>x</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. If <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mrow><m:mn>0</m:mn><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow>
+				<m:mo>=</m:mo><m:mi>x</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, then <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>0</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. But this means that <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> could be any number, that is, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mn>0</m:mn><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow>
+   <m:mo>=</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>, or <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mn>0</m:mn><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow>
+   <m:mo>=</m:mo><m:mn>28</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0</m:mn><m:mo>⋅</m:mo><m:mn>28</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. This suggests that the quotient is indeterminant.</para><para id="eip-78" class="highlight"><title><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi><m:mo>/</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:annotation encoding="MathType-MTEF"/></m:semantics></m:math> Is Undefined or Indeterminant</title>Division by 0 is undefined or indeterminant.<newline/><newline/>Do not divide by 0.</para><para id="eip-318">Rational numbers have decimal representations that either terminate or do not terminate but contain a repeating block of digits. Some examples are:</para><para id="eip-666"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:munder>
+									<m:munder>
+										<m:mrow>
+											<m:mfrac>
+												<m:mn>3</m:mn>
+												<m:mn>4</m:mn>
+											</m:mfrac>
+											<m:mo>=</m:mo><m:mn>0.75</m:mn>
+										</m:mrow>
+										<m:mo stretchy="true">︸</m:mo>
+									</m:munder>
+									<m:mrow>
+										<m:mtext>Terminating</m:mtext>
+									</m:mrow>
+								</m:munder>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:munder>
+									<m:munder>
+										<m:mrow>
+											<m:mfrac>
+												<m:mrow>
+													<m:mn>15</m:mn>
+												</m:mrow>
+												<m:mrow>
+													<m:mn>11</m:mn>
+												</m:mrow>
+											</m:mfrac>
+											<m:mo>=</m:mo><m:mn>1.36363636</m:mn><m:mo>…</m:mo>
+										</m:mrow>
+										<m:mo stretchy="true">︸</m:mo>
+									</m:munder>
+									<m:mrow>
+										<m:mtext>Nonterminating,</m:mtext><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mtext>but</m:mtext><m:mtext> </m:mtext><m:mtext>​</m:mtext><m:mtext>repeating</m:mtext><m:mtext>​</m:mtext>
+									</m:mrow>
+								</m:munder>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><para id="eip-506">Some rational numbers are graphed below.</para><para id="eip-778"><media id="C01_S1-2_P09_004" display="block" alt="Graphs of rational numbers negative nine over two, negative five over three, negative one over eight, zero, two, and two and one fourth plotted on a number line.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P09_004.png" print-width="3in"/>
+	</media></para><para id="eip-94"><title>Irrational Numbers</title>The <term>irrational numbers <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mi>I</m:mi><m:mi>r</m:mi><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>:</term> Irrational numbers are numbers that cannot be written as the quotient of two integers. They are numbers whose decimal representations are nonterminating and nonrepeating. Some examples are</para><para id="eip-397"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>4.01001000100001</m:mn><m:mo>…</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>π</m:mi><m:mo>=</m:mo><m:mn>3.1415927</m:mn><m:mo>…</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-183">Notice that the collections of rational numbers and irrational numbers have no numbers in common.</para><para id="eip-296">When graphed on the number line, the rational and irrational numbers account for every point on the number line. Thus each point on the number line has a coordinate that is either a rational or an irrational number.</para><para id="eip-470">In summary, we have</para></section><section id="eip-279"><title>Sample Set A</title><para id="eip-840">The summaray chart illustrates that
+<newline/><newline/>
+<media id="C01_S1-2_P10_001" display="block" alt="A rectangle labeled as Real numbers is divided into two parts, labeled as Rational numbers, and Irrational numbers, respectively. The part labeled as Rational number has three more rectangles placed one inside the other. These rectangles are labeled: the outermost as integers, the innermost as natural numbers, and the middle one as whole numbers. This illustrates that all real numbers are primarily classified as rational and irrational numbers.  And that all the natural numbers are whole numbers, all the whole numbers are integers, and all the integers are rational numbers. But the vice versa is not true.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P10_001.png" print-width="3in"/>
+	</media>
+</para><example id="eip-17"><para id="eip-285">
+Every natural number is a real number.
+</para>
+</example><example id="eip-712"><para id="eip-856">
+Every whole number is a real number.
+</para>
+</example><example id="eip-869"><para id="eip-370">No integer is an irrational number.</para>
+</example></section><section id="eip-727"><title>Practice Set A</title><exercise id="eip-408"><problem id="eip-40">
+		<para id="eip-561">
+Is every natural number a whole number?
+  </para>
+	</problem>
+	<solution id="eip-638">
+		<para id="eip-943">yes</para>
+	</solution>
+</exercise><exercise id="eip-896"><problem id="eip-405">
+		<para id="eip-557">
+Is every whole number an integer?
+  </para>
+	</problem>
+	<solution id="eip-573">
+		<para id="eip-366">yes</para>
+	</solution>
+</exercise><exercise id="eip-69"><problem id="eip-496">
+		<para id="eip-7">
+Is every integer a rational number?</para>
+	</problem>
+	<solution id="eip-846">
+		<para id="eip-152">yes
+</para>
+	</solution>
+</exercise><exercise id="eip-635"><problem id="eip-15">
+		<para id="eip-588">
+Is every rational number a real number?
+  </para>
+	</problem>
+	<solution id="eip-241">
+		<para id="eip-589">yes</para>
+	</solution>
+</exercise><exercise id="eip-823"><problem id="eip-690">
+		<para id="eip-360">
+Is every integer a natural number?
+  </para>
+	</problem>
+	<solution id="eip-480">
+		<para id="eip-836">no</para>
+	</solution>
+</exercise><exercise id="eip-289"><problem id="eip-206">
+		<para id="eip-315">
+Is there an integer that is a natural number?
+  </para>
+	</problem>
+	<solution id="eip-745">
+		<para id="eip-75">yes</para>
+	</solution>
+</exercise></section><section id="eip-947"><title>Ordering the Real Numbers</title><para id="eip-49"><title>Ordering the Real Numbers</title>A real number <m:math>
+		<m:semantics>
+			<m:mi>b</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is said to be greater than a real number <m:math>
+		<m:semantics>
+			<m:mi>a</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, denoted <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, if the graph of <m:math>
+		<m:semantics>
+			<m:mi>b</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is to the right of the graph of <m:math>
+		<m:semantics>
+			<m:mi>a</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> on the number line.</para></section><section id="eip-795"><title>Sample Set B</title><para id="eip-591">As we would expect, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> since 5 is to the right of 2 on the number line. Also, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is to the right of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> on the number line.
+<newline/><newline/>
+<media id="C01_S1-2_P10_002" display="block" alt="Graphs of numbers negative five, negative two, five, and two plotted on a number line. The number line has arrows on each side, and is labeled from negative five to five in increments of one. The number line explains that negative two is greater than negative five, and five is greater than two.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P10_002.png" print-width="3in"/>
+	</media>
+</para></section><section id="eip-223"><title>Practice Set B</title><exercise id="eip-412"><problem id="eip-464">
+		<para id="eip-16">Are all positive numbers greater than 0?</para>
+	</problem>
+	<solution id="eip-420">
+		<para id="eip-162">yes</para>
+	</solution>
+</exercise><exercise id="eip-536"><problem id="eip-863">
+		<para id="eip-153">
+Are all positive numbers greater than all negative numbers?
+  </para>
+	</problem>
+	<solution id="eip-151">
+		<para id="eip-941">yes
+</para>
+	</solution>
+</exercise><exercise id="eip-663"><problem id="eip-55">
+		<para id="eip-598">
+Is 0 greater than all negative numbers?
+  </para>
+	</problem>
+	<solution id="eip-66">
+		<para id="eip-777">yes</para>
+	</solution>
+</exercise><exercise id="eip-753"><problem id="eip-579">
+		<para id="eip-431">
+Is there a largest positive number? Is there a smallest negative number?
+  </para>
+	</problem>
+	<solution id="eip-923">
+		<para id="eip-485">no, no</para>
+	</solution>
+</exercise><exercise id="eip-948"><problem id="eip-433">
+		<para id="eip-877">
+How many real numbers are there? How many real numbers are there between 0 and 1?</para>
+	</problem>
+	<solution id="eip-779">
+		<para id="eip-815">infinitely many, infinitely many</para>
+	</solution>
+</exercise></section><section id="eip-72"><title>Sample Set C</title><example id="eip-210"><para id="eip-462">What integers can replace <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> so that the following statement is true?</para><para id="eip-634"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><para id="eip-14">This statement indicates that the number represented by <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is between <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> and 2. Specifically, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is less than or equal to <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>, and at the same time, <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is strictly less than 2. This statement is an example of a compound inequality.</para><para id="eip-842"><media id="C01_S1-2_P11_001" display="block" alt="Graphs of integers negative five to one plotted on a number line. The number line has arrows on each side, and is labeled from negative five to five in increments of one.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P11_001.png" print-width="3in"/>
+	</media></para><para id="eip-586">The integers are <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.
+</para>
+</example><example id="eip-184"><para id="eip-981">
+Draw a number line that extends from <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>3</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> to 7. Place points at all whole numbers between and including <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>2</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> and 6.
+</para>
+</example><example id="eip-919"><para id="eip-612">Draw a number line that extends from <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> to 6 and place points at all real numbers greater than or equal to 3 but strictly less than 5.
+<newline/><newline/>
+<media id="C01_S1-2_P11_002" display="block" alt="Graphs of whole numbers between and including negative two and six plotted on a number line. The number line has arrows on each side, and is labeled from negative three to seven in increments of one. Negative two and negative one are not whole numbers, therefore they are not included in the graph.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P11_002.png" print-width="3in"/>
+	</media>
+</para><para id="eip-604" class="highlight">It is customary to use a <term>closed circle</term> to indicate that a point is included in the graph and an <term>open circle</term> to indicate that a point is not included.
+<newline/><newline/>
+<media id="C01_S1-2_P11_003" display="block" alt="A number line with arrows on each end, and labeled from negative four to six in increments of one. There is a closed circle at three, and an open circle at five. These two circles are connected by a black line.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P11_003.png" print-width="3in"/>
+	</media></para>
+</example></section><section id="eip-425"><title>Practice Set C</title><exercise id="eip-89"><problem id="eip-441">
+		<para id="eip-367">What whole numbers can replace <m:math>
+		<m:semantics>
+			<m:mi>x</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> so that the following statement is true?<newline/><newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</problem>
+	<solution id="eip-280">
+		<para id="eip-299">0, 1, 2</para>
+	</solution>
+</exercise><exercise id="eip-754"><problem id="eip-369">
+		<para id="eip-807">Draw a number line that extends from <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> to 3 and place points at all numbers greater than or equal to <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> but strictly less than 2.<newline/><newline/><media id="C01_S1-2_P11_004" display="block" alt="A horizontal line with arrows on both the ends.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P11_004.png" print-width="3in"/>
+	</media>
+</para>
+	</problem>
+	<solution id="eip-775">
+		<para id="eip-283"><media id="C01_S1-2_P13_001" display="block" alt="A number line with arrows on each end, and labeled from negative five to three in increments of one. There is a closed circle at negative four and an open circle at two. These two circles are connected by a black line.">
+		<image mime-type="image/png" src="../../media/C01_S1-2_P13_001.png" print-width="3in"/>
+	</media></para>
+	</solution>
+</exercise>
+</section><section id="eip-129" class="homework"><title>Exercises</title><para id="eip-150">For the following problems, next to each real number, note all collections to which it belongs by writing <m:math>
+		<m:semantics>
+			<m:mi>N</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> for natural numbers, <m:math>
+		<m:semantics>
+			<m:mi>W</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> for whole numbers, <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> for integers, <m:math>
+		<m:semantics>
+			<m:mi>Q</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> for rational numbers, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>I</m:mi><m:mi>r</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> for irrational numbers, and <m:math>
+		<m:semantics>
+			<m:mi>R</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> for real numbers. Some numbers may require more than one letter.</para><exercise id="eip-399"><problem id="eip-578">
+		<para id="eip-847">
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mfrac>
+							<m:mn>1</m:mn>
+							<m:mn>2</m:mn>
+						</m:mfrac>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math>
+		</para>
+	</problem><solution id="zip-id7807665"><para id="zip-id7184826"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Q</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="eip-204"><problem id="eip-917">
+		<para id="eip-785">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>12</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-54"><problem id="eip-930">
+		<para id="eip-938">
+0
+  </para>
+	</problem><solution id="zip-id1170653227313"><para id="zip-id1170651340526"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>W</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>Z</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>Q</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-682"><problem id="eip-583">
+		<para id="eip-747">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>24</m:mn><m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-139"><problem id="eip-124">
+		<para id="eip-632">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>86.3333</m:mn><m:mo>…</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id6290263"><para id="zip-id7268113"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Q</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-629"><problem id="eip-276">
+		<para id="eip-768">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>49.125125125</m:mn><m:mo>…</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-891"><problem id="eip-689">
+		<para id="eip-306">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>15.07</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id7397481"><para id="zip-id1170653510099"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>Q</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><para id="eip-458">For the following problems, draw a number line that extends from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> to 3. Locate each real number on the number line by placing a point (closed circle) at its approximate location.</para><exercise id="eip-117"><problem id="eip-294">
+		<para id="eip-864">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-952"><problem id="eip-687">
+		<para id="eip-920">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id1170653230811"><para id="zip-id1170651348369"><media id="zip-id6761828" alt="A number line with arrows on each end, labeled from negative three to two in increments of one. There is a closed circle at negative two.">
+		<image mime-type="image/jpeg" src="../../media/C11_S11-1_P01_001.jpg" print-width="2.5in"/>
+	</media></para></solution>
+	</exercise><exercise id="eip-592"><problem id="eip-396">
+		<para id="eip-972">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-32"><problem id="eip-762">
+		<para id="eip-275">
+Is 0 a positive number, negative number, neither, or both?  </para>
+	</problem><solution id="zip-id6885338"><para id="zip-id7895052">neither</para></solution>
+</exercise><exercise id="eip-751"><problem id="eip-500">
+		<para id="eip-524">
+An integer is an even integer if it can be divided by 2 without a remainder; otherwise the number is odd. Draw a number line that extends from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> to 5 and place points at all negative even integers and at all positive odd integers. </para>
+	</problem>
+</exercise><exercise id="eip-99"><problem id="eip-466">
+		<para id="eip-436">Draw a number line that extends from <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> to 5. Place points at all integers strictly greater than <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> but strictly less than 4.</para>
+	</problem><solution id="zip-id5865287"><para id="zip-id1170653278780"><media id="zip-id1170653585117" alt="A number line with arrows on each side, labeled from negative five to five in increments of one. The graphs of the integers negative two to three are plotted on the number line.">
+		<image mime-type="image/jpeg" src="../../media/C11_S11-1_P01_002.jpg" print-width="3in"/>
+	</media></para></solution>
+</exercise><para id="eip-320">For the following problems, draw a number line that extends from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> to 5. Place points at all real numbers between and including each pair of numbers.</para><exercise id="eip-812"><problem id="eip-108">
+		<para id="eip-585"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+	</problem>
+	</exercise><exercise id="eip-52"><problem id="eip-618">
+		<para id="eip-622"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 4
+</para>
+	</problem><solution id="zip-id7950834"><para id="zip-id5351297"><media id="zip-id7795773" alt="A number line with arrows on each end, labeled from negative five to five in increments of one. There are closed circles at negative three and four. These two circles are connected by a black line.">
+		<image mime-type="image/jpeg" src="../../media/C11_S11-1_P01_003.jpg" print-width="3in"/>
+	</media></para></solution>
+	</exercise><exercise id="eip-789"><problem id="eip-4">
+		<para id="eip-229">
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 0
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-30"><problem id="eip-469">
+		<para id="eip-452">
+Draw a number line that extends from <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> to 5. Is it possible to locate any numbers that are strictly greater than 3 but also strictly less than <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>?
+  </para>
+	</problem><solution id="zip-id1170653533747"><para id="zip-id6641104"><media id="zip-id8122366" alt="A number line with arrows on each end, labeled from negative five to five, in increments of one. There are open circles at negative two and three with a dark shaded arrow to the left of negative two and right of three.">
+		<image mime-type="image/jpeg" src="../../media/C11_S11-1_P01_004.jpg" print-width="3in"/>
+	</media>; no</para></solution>
+</exercise><para id="eip-951">For the pairs of real numbers shown in the following problems, write the appropriate relation symbol <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>&lt;</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>&gt;</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>=</m:mo><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> in place of the <m:math>
+ <m:semantics>
+  <m:mo>∗</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.</para><exercise id="eip-781"><problem id="eip-874">
+		<para id="eip-886">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>∗</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-909"><problem id="eip-822">
+		<para id="eip-46">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>∗</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id1170653380353"><para id="zip-id1170651383882"><m:math>
+ <m:semantics>
+  <m:mo>&lt;</m:mo>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-640"><problem id="eip-375">
+		<para id="eip-724">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>4</m:mn><m:mo>∗</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-894"><problem id="eip-158">
+		<para id="eip-662">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6</m:mn><m:mo>∗</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id1170653583190"><para id="zip-id1170653240497"><m:math>
+ <m:semantics>
+  <m:mo>&gt;</m:mo>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-330"><problem id="eip-855">
+		<para id="eip-256">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mo>∗</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-595"><problem id="eip-548">
+		<para id="eip-926">
+Is there a largest real number? If so, what is it?
+  </para>
+	</problem><solution id="zip-id7783670"><para id="zip-id7665922">no</para></solution>
+	</exercise><exercise id="eip-362"><problem id="eip-513">
+		<para id="eip-963">
+Is there a largest integer? If so, what is it?
+  </para>
+	</problem>
+	</exercise><exercise id="eip-922"><problem id="eip-20">
+		<para id="eip-182">
+Is there a largest two-digit integer? If so, what is it?
+  </para>
+	</problem><solution id="zip-id7003344"><para id="zip-id1170653634188">99</para></solution>
+	</exercise><exercise id="eip-961"><problem id="eip-110">
+		<para id="eip-977">
+Is there a smallest integer? If so, what is it?
+ </para>
+	</problem>
+</exercise><exercise id="eip-50"><problem id="eip-997">
+		<para id="eip-468">
+Is there a smallest whole number? If so, what is it?
+  </para>
+	</problem><solution id="zip-id1170653265488"><para id="zip-id7818677">yes, 0</para></solution>
+	</exercise><para id="eip-416">For the following problems, what numbers can replace <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> so that the following statements are true?</para><exercise id="eip-281"><problem id="eip-792">
+		<para id="eip-906">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>an</m:mtext><m:mtext> </m:mtext><m:mtext>integer</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+</exercise><exercise id="eip-224"><problem id="eip-653">
+		<para id="eip-515">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>7</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>an</m:mtext><m:mtext> </m:mtext><m:mtext>integer</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem><solution id="zip-id7502268"><para id="zip-id6843819"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-827"><problem id="eip-974">
+		<para id="eip-104">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>natural</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-282"><problem id="eip-388">
+		<para id="eip-607"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>15</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>natural</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+	</problem><solution id="zip-id1170653574433"><para id="zip-id2566472">There are no natural numbers between −15 and −1.</para></solution>
+
+	</exercise><exercise id="eip-33"><problem id="eip-435">
+		<para id="eip-98">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>5</m:mn><m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>whole</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	</exercise><exercise id="eip-22"><problem id="eip-322">
+		<para id="eip-994">The temperature in the desert today was ninety-five degrees. Represent this temperature by a rational number.</para></problem><solution id="zip-id7029876"><para id="zip-id7712970"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>95</m:mn>
+        </m:mrow>
+        <m:mn>1</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mi>°</m:mi>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-907"><problem id="eip-844">
+		<para id="eip-720">
+The temperature today in Colorado Springs was eight degrees below zero. Represent this temperature with a real number.
+  </para>
+	</problem>
+	</exercise><exercise id="eip-703"><problem id="eip-228">
+		<para id="eip-645">
+Is every integer a rational number?
+  </para>
+	</problem><solution id="zip-id2417532"><para id="zip-id6845768">Yes, every integer is a rational number.</para></solution>
+	</exercise><exercise id="eip-904"><problem id="eip-371">
+		<para id="eip-339">
+Is every rational number an integer?
+ </para>
+	</problem>
+</exercise><exercise id="eip-249"><problem id="eip-614">
+		<para id="eip-541">
+Can two rational numbers be added together to yield an integer? If so, give an example.
+  </para>
+	</problem><solution id="zip-id5337929"><para id="zip-id1170651330323">Yes. <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><para id="eip-103">For the following problems, on the number line, how many units (intervals) are there between?</para><exercise id="eip-327"><problem id="eip-292">
+		<para id="eip-680">0 and 2?</para>
+	</problem>
+	</exercise><exercise id="eip-932"><problem id="eip-225">
+		<para id="eip-180"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 0?
+</para>
+	</problem><solution id="zip-id5655804"><para id="zip-id6827467">5 units</para></solution>
+</exercise><exercise id="eip-309"><problem id="eip-898">
+		<para id="eip-729">
+0 and 6?
+  </para>
+	</problem>
+	</exercise><exercise id="eip-284"><problem id="eip-259">
+		<para id="eip-278"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 0?</para>
+	</problem>
+	<solution id="eip-id22640428"><para id="eip-id22640429">8 units</para></solution></exercise><exercise id="eip-671"><problem id="eip-231">
+		<para id="eip-667"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 4?
+  </para>
+	</problem>
+	</exercise><exercise id="eip-523"><problem id="eip-601">
+		<para id="eip-551"><m:math>
+		<m:semantics>
+			<m:mi>m</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and <m:math>
+		<m:semantics>
+			<m:mi>n</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mi>n</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>?
+</para>
+	</problem>
+<solution id="zip-id7036338"><para id="zip-id5742248"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>m</m:mi><m:mo>−</m:mo><m:mi>n</m:mi><m:mtext> </m:mtext><m:mtext>units</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></solution></exercise><exercise id="eip-498"><problem id="eip-491">
+		<para id="eip-755"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mi>a</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mi>b</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mi>a</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> ?
+
+
+  </para>
+	</problem>
+	</exercise></section><section id="eip-214"><title>Exercises for Review</title><exercise id="eip-908"><problem id="eip-674">
+			<para id="eip-942"><emphasis>(<link document="m18872"/>)</emphasis> Find the value of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>6</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>. </para>
+		</problem>
+		<solution id="zip-id1170653204618"><para id="zip-id6527664">23</para></solution></exercise><exercise id="eip-539"><problem id="eip-135">
+			<para id="eip-810">
+				<emphasis>(<link document="m18872"/>)</emphasis> Find the value of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem>
+	</exercise><exercise id="eip-209"><problem id="eip-984">
+			<para id="eip-197"><emphasis>(<link document="m18872"/>)</emphasis> Are the statements <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>≥</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> the same or different?</para>
+		</problem>
+		<solution id="zip-id6351567"><para id="zip-id7054925">different</para></solution></exercise><exercise id="eip-956"><problem id="eip-701">
+			<para id="eip-361"><emphasis>(<link document="m18872"/>)</emphasis> Use algebraic notation to write the statement "six times a number is less than or equal to eleven." </para>
+		</problem>
+	</exercise><exercise id="eip-8"><problem id="eip-163">
+			<para id="eip-542"><emphasis>(<link document="m18872"/>)</emphasis> Is the statement <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mn>7</m:mn><m:mo>≥</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> true or false?</para></problem>
+		<solution id="zip-id6250670"><para id="zip-id7653639">true</para></solution></exercise></section>
+</content>
+
+</document>

@@ -1,0 +1,379 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Box Plots</title>
+
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>36fd41e9-5fdc-4b3f-a9e1-937dbe136cb8</md:uuid>
+</metadata>
+
+  <content>
+    <para id="intro">
+      We have already discussed techniques for visually representing
+      data (see <link document="m10160" strength="3">histograms</link>
+      and <link document="m10214" strength="3">frequency
+      polygons</link>).  In this section we present another important
+      method, called <term>box plots</term>.  (We encountered a
+      simplified form of box plots in the <link document="m10892" strength="3">introduction to this chapter</link>.)  Box plots
+      are useful for identifying outliers and for comparing
+      distributions.  We will explain box plots with the help of data
+      from an in-class experiment.  Students in Introductory
+      Statistics were presented with a page containing 30 colored
+      rectangles.  Their task was to name the colors as quickly as
+      possible, and their times were recorded.  We'll compare the
+      scores for the 16 men and 31 women who participated in the
+      experiment by making separate box plots for each gender.  (Such
+      a display is said to involve <term>parallel box plots</term>.)
+    </para>
+
+    <para id="first">
+      There are several steps in constructing a box plot.  The first
+      relies on the 25th, 50th, and 75th percentiles in the
+      distribution of scores.  <link target-id="figure1" strength="3"/>
+      shows how these three statistics are used.  For each gender we
+      draw a box extending from the 25th percentile to the 75th
+      percentile.  The 50th percentile is drawn inside the box.  Therefore,
+    </para>
+
+    <code display="block" id="idm2198224">
+      the bottom of each box is the 25th percentile,
+      the top is the 75th percentile,
+      and the line in the middle is the 50th percentile.
+    </code>
+
+    <para id="para1b">
+      The data for the women in our sample are shown in <link target-id="table1" strength="3"/>.
+    </para>
+
+    <table frame="all" id="table1" summary="">
+      <title>Times (in seconds) for women to name the colors.</title>
+      <tgroup cols="7">
+	<tbody>
+	  <row>
+	    <entry>14</entry>
+	    <entry>17</entry>
+	    <entry>18</entry>
+	    <entry>19</entry>
+	    <entry>20</entry>
+	    <entry>21</entry>
+	    <entry>29</entry>
+	  </row>
+	  <row>
+	    <entry>15</entry>
+	    <entry>17</entry>
+	    <entry>18</entry>
+	    <entry>19</entry>
+	    <entry>20</entry>
+	    <entry>21</entry>
+	    <entry/>
+	  </row>
+	  <row>
+	    <entry>16</entry>
+	    <entry>17</entry>
+	    <entry>18</entry>
+	    <entry>19</entry>
+	    <entry>20</entry>
+	    <entry>23</entry>
+	    <entry/>
+	  </row>
+	  <row>
+	    <entry>16</entry>
+	    <entry>17</entry>
+	    <entry>18</entry>
+	    <entry>20</entry>
+	    <entry>20</entry>
+	    <entry>24</entry>
+	    <entry/>
+	  </row>
+	  <row>
+	    <entry>17</entry>
+	    <entry>18</entry>
+	    <entry>18</entry>
+	    <entry>20</entry>
+	    <entry>21</entry>
+	    <entry>24</entry>
+	    <entry/>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="para1c">
+      For these data, the 25th percentile is 17, the 50th percentile
+      is 19, and the 75th percentile is 20.  For the men (whose data
+      are not shown), the 25th percentile is 19, the 50th percentile
+      is 22.5, and the 75th percentile is 25.5.
+    </para>
+
+    <figure id="figure1">
+      <media id="idm9326160" alt=""><image src="../../media/image001-fca3.gif" mime-type="image/gif"/></media>
+      <caption>The first step in creating box plots.</caption>
+    </figure>
+
+    <para id="para1d">
+      Before proceeding, the terminology in <link target-id="table2" strength="3"/> is helpful.
+    </para>
+
+    <table frame="all" id="table2" summary="">
+      <title>Terminology</title>
+      <tgroup cols="3">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Formula</entry>
+	    <entry>Value for Women's Data</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>Upper Hinge</entry>
+	    <entry>75th percentile</entry>
+	    <entry>20</entry>
+	  </row>
+	  <row>
+	    <entry>Lower Hinge</entry>
+	    <entry>25th percentile</entry>
+	    <entry>17</entry>
+	  </row>
+	  <row>
+	    <entry>H-Spread</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:minus/>
+		  <m:ci>Upper Hinge</m:ci>
+		  <m:ci>Lower Hinge</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>3</entry>
+	  </row>
+	  <row>
+	    <entry>Step</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:times/>
+		  <m:cn>1.5</m:cn>
+		  <m:ci>H-Spread</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>4.5</entry>
+	  </row>
+	  <row>
+	    <entry>Upper Inner Fence</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:plus/>
+		  <m:ci>Upper Hinge</m:ci>
+		  <m:ci>1 Step</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>24.5</entry>
+	  </row>
+	  <row>
+	    <entry>Lower Inner Fence</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:minus/>
+		  <m:ci>Lower Hinge</m:ci>
+		  <m:ci>1 Step</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>12.5</entry>
+	  </row>
+	  <row>
+	    <entry>Upper Outer Fence</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:plus/>
+		  <m:ci>Upper Hinge</m:ci>
+		  <m:ci>2 Steps</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>29</entry>
+	  </row>
+	  <row>
+	    <entry>Lower Outer Fence</entry>
+	    <entry>
+	      <m:math>
+		<m:apply>
+		  <m:minus/>
+		  <m:ci>Lower Hinge</m:ci>
+		  <m:ci>2 Steps</m:ci>
+		</m:apply>
+	      </m:math>
+	    </entry>
+	    <entry>8</entry>
+	  </row>
+	  <row>
+	    <entry>Upper Adjacent</entry>
+	    <entry>Largest value below Upper Inner Fence</entry>
+	    <entry>24</entry>
+	  </row>
+	  <row>
+	    <entry>Lower Adjacent</entry>
+	    <entry>Smallest value above Lower Inner Fence</entry>
+	    <entry>14</entry>
+	  </row>
+	  <row>
+	    <entry>Outside Value</entry>
+	    <entry>
+	      A value beyond an Inner Fence but not beyond an Outer
+	      Fence
+	    </entry>
+	    <entry>29 (this value is on the fence, but not beyond)</entry>
+	  </row>
+	  <row>
+	    <entry>Far Out Value</entry>
+	    <entry>A value beyond an Outer Fence</entry>
+	    <entry>None in these data</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para id="second">
+      Continuing with the box plots, we put "whiskers" above and below
+      each box, to give additional information about the spread of
+      data (<link target-id="figure2" strength="3"/>).  Whiskers are
+      vertical lines that end in a horizontal stroke (the purpose of
+      the stroke is just to make the vertical lines more visible).
+      Whiskers are drawn from the upper and lower hinges to the upper
+      and lower adjacent values (24 and 14 for the women's data).
+    </para>
+    
+    <figure id="figure2">
+      <media id="idm1669232" alt=""><image src="../../media/image002.gif" mime-type="image/gif"/></media>
+      <caption>The box plots with the whiskers drawn.</caption>  
+    </figure>
+    
+    <para id="fourth">
+      Although we don't draw whiskers all the way to outside or far
+      out values, we still wish to represent these outliers in our box
+      plots.  This is achieved by adding additional marks beyond the
+      whiskers.  Specifically, outside values are indicated by small
+      circles, and far out values are indicated by asterisks.  In our
+      data, there are no far out values, and just one outside value.
+      The outside value of 29 is for the women, and is shown in <link target-id="figure3" strength="3"/>.
+    </para>
+    
+    <figure id="figure3">
+      <media id="idp7633024" alt=""><image src="../../media/image003.gif" mime-type="image/gif"/></media>
+      <caption>The box plots with the outlier shown.</caption>
+    </figure>
+
+    <para id="fifth">
+      There is one more mark to include in box plots (although
+      sometimes it is omitted).  We indicate the mean score for a
+      group by inserting a plus sign.  <link target-id="figure4" strength="3"/> shows the result of adding means to our box
+      plots.
+    </para>
+    
+    <figure id="figure4">
+      <media id="idp3941360" alt=""><image src="../../media/image004.gif" mime-type="image/gif"/></media>
+      <caption>The completed box plots.</caption>
+    </figure>
+    
+    <para id="fifth2">
+      <link target-id="figure4" strength="3"/> provides a revealing
+      summary of the data.  Since half the scores in a distribution
+      are between the hinges (recall that the hinges are the 25th and
+      75th percentiles), we see that half the women's times are
+      between 17 and 20 whereas half the men's times are between 19
+      and 25.  We also see that women generally named the colors
+      faster than the men did, although one woman was slower than
+      almost all of the men.  <link target-id="figure5" strength="3"/>
+      shows the boxplot for the women's data with detailed labels.
+    </para>
+    
+    <figure id="figure5">
+      <media id="idp724656" alt=""><image src="../../media/boxplot_labeled.gif" mime-type="image/gif"/></media>
+      <caption>The boxplot for the women's data.</caption>
+    </figure>
+      
+    <para id="fifth3">
+      Here are some other examples of box plots.
+      <list id="list1" list-type="bulleted">
+	<item>
+	  <link url="http://psych.rice.edu/online_stat/chapter2/boxplots_files/target_boxplot.html">Time
+	    to move the mouse over a target.</link>
+	</item>
+	<item>
+	  <link url="http://psych.rice.edu/online_stat/chapter2/boxplots_files/draft.html">Draft
+	    Lottery</link>
+	</item>
+      </list>
+    </para>
+    
+    <section id="variations">
+      <title>Variations on box plots</title>
+      <para id="sectpara1">
+	Statistical analysis programs may offer options on how box
+	plots are created.  For example, the box plot in <link target-id="figure6" strength="3"/> is constructed from our data
+	but differs from the previous box plot in several ways.
+	<list id="list2" list-type="enumerated">
+	  <item>First, it does not mark outliers.</item>
+	  <item>
+	    Second, the means are indicated by green lines rather than
+	    plus signs.
+	  </item>
+	  <item>
+	    The mean of all scores is indicated by a grey line.
+	  </item>
+	  <item>
+	    Individual scores are represented by dots.  Since the
+	    scores have been rounded to the nearest second, any given
+	    dot might represent more than one score.
+	  </item>
+	  <item>
+	    The box for the women is wider than the box for the men
+	    because the widths of the boxes are proportional to the
+	    number of subjects of each gender (31 women and 16 men).
+	  </item>
+	</list>
+      </para>
+
+      <figure id="figure6">
+	<media id="idm7791744" alt=""><image src="../../media/image006.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Box plots showing the individual scores and the means.
+	</caption>
+      </figure>
+      
+      <para id="sectpara1a">
+	Each dot in <link target-id="figure6" strength="3"/> represents a
+	group of subjects with the same score (rounded to the nearest
+	second).  An alternative graphing technique is to
+	<emphasis>jitter</emphasis> the points.  This means spreading
+	out different dots at the same horizontal position, one dot
+	for each subject. The exact horizontal position of a point is
+	determined randomly (under the constraint that different dots
+	don?t overlap).  Spreading out the dots allows you to see
+	multiple occurrences of a given score.  <link target-id="figure7" strength="3"/> shows what jittering looks like.
+      </para>
+      
+      <figure id="figure7">
+	<media id="idm2137824" alt=""><image src="../../media/image007.gif" mime-type="image/gif"/></media>
+	<caption>
+	  Box plots with the individual scores jittered.
+	</caption>
+      </figure>
+      
+      <para id="last">
+	Different styles of box plots are best for different
+	situations, and there are no firm rules for which to use.
+	When exploring your data you should try several ways of
+	visualizing them.  Which graph you include in your report
+	should depend on how well different graphs reveal the aspects
+	of the data you consider most important.
+      </para>
+    </section>
+    
+  </content>  
+</document>
